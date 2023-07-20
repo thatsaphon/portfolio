@@ -8,7 +8,7 @@ export default function Home() {
         <span className="text-blue-900 font-extrabold">Thatsaphon,</span>
       </h1>
       <h1 className="text-3xl lg:text-6xl text-blue-600 font-bold">
-        a Fullstatck developer.
+        a Fullstack developer.
       </h1>
       <h3 className="text-lg mt-3 lg:mt-0 lg:text-2xl text-slate-500">
         {`Let's see what have I done.`}
