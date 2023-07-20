@@ -11,7 +11,7 @@ export default function Home() {
         a Fullstatck developer.
       </h1>
       <h3 className="text-lg mt-3 lg:mt-0 lg:text-2xl text-slate-500">
-        Let's see what have I done.
+        {`Let's see what have I done.`}
       </h3>
       <p>
         <button
