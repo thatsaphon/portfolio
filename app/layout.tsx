@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Noto_Sans_Thai } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Noto_Sans_Thai({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Thatsaphon",
@@ -16,7 +16,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header className="hidden md:fixed md:w-full md:bg-slate-800 md:h-24 md:flex md:justify-between md:p-5 md:items-center">
+          <span className="text-2xl text-white font-bold">Portfolio 🔥</span>
+          <div className="text-2xl text-white flex gap-5">
+            <button type="button" className="hover:cursor-pointer">
+              About Me
+            </button>
+            <button type="button" className="hover:cursor-pointer">
+              Experiences
+            </button>
+            <button type="button" className="hover:cursor-pointer">
+              Portfolio
+            </button>
+          </div>
+          <button className="bg-white rounded-md text-2xl font-bold p-3">
+            Contact Me
+          </button>
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
