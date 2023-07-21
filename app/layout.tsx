@@ -27,7 +27,10 @@ export default function RootLayout({
               Experiences
             </button>
             <button type="button" className="hover:cursor-pointer">
-              Portfolio
+              Service
+            </button>
+            <button type="button" className="hover:cursor-pointer">
+              Project
             </button>
           </div>
           <button className="bg-white rounded-md text-2xl font-bold p-3">
