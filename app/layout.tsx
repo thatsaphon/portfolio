@@ -1,3 +1,4 @@
+import ThemeButtonComponent from "@/components/theme-button";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Noto_Sans_Thai } from "next/font/google";
@@ -33,11 +34,13 @@ export default function RootLayout({
               Project
             </button>
           </div>
-          <button className="bg-white rounded-md text-2xl font-bold p-3">
-            Contact Me
-          </button>
+          <div>
+            <button className="bg-white rounded-md text-2xl font-bold p-3 text-slate-500">
+              Contact Me
+            </button>
+          </div>
         </header>
-        {children}
+        <div className="dark:bg-black">{children}</div>
       </body>
     </html>
   );

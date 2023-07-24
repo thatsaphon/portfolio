@@ -1,7 +1,5 @@
-import dayjs from "dayjs";
+import moment from "moment";
 import React from "react";
-var relativeTime = require("dayjs/plugin/relativeTime");
-dayjs.extend(relativeTime);
 
 type Props = {};
 
@@ -13,8 +11,7 @@ export default function AboutPage({}: Props) {
       </h1>
       <div className="text-lg mt-3 lg:mt-0 lg:text-2xl text-slate-500">
         <p>
-          {`Date of birth - 12 April 1994`} (
-          {dayjs().from(dayjs("1994-04-12"), true)})
+          {`Date of birth - 12 April 1994`} ({moment("1994-04-12").fromNow()})
         </p>
         {/* {dayjs.from(dayjs("1994-04-12"))} */}
         <p>{`Bechelor of Accounting - Thammasat University`}</p>

@@ -6,11 +6,13 @@ export default function Home() {
   return (
     <>
       <div className="flex min-h-screen flex-col items-center justify-center p-24 pb-36 lg:gap-5 text-center">
-        <h1 className="text-3xl lg:text-6xl text-blue-600 font-bold">
+        <h1 className="text-3xl lg:text-6xl text-blue-600 dark:text-blue-400 font-bold">
           Hi there, My name is{" "}
-          <span className="text-blue-900 font-extrabold">Thatsaphon,</span>
+          <span className="text-blue-900 dark:text-blue-300 font-extrabold">
+            Thatsaphon,
+          </span>
         </h1>
-        <h1 className="text-3xl lg:text-6xl text-blue-600 font-bold">
+        <h1 className="text-3xl lg:text-6xl text-blue-600 dark:text-blue-400 font-bold">
           a Fullstack developer.
         </h1>
         <h3 className="text-lg mt-3 lg:mt-0 lg:text-2xl text-slate-500">
