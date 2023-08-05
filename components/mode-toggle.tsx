@@ -8,7 +8,8 @@ export function ModeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      className="border rounded-md w-12 h-12 flex items-center justify-center">
+      className="flex h-12 w-12 items-center justify-center rounded-md border-2 border-slate-800 dark:border-white"
+    >
       <span className="sr-only">Toggle mode</span>
       {theme !== "dark" ? (
         <svg
@@ -17,7 +18,8 @@ export function ModeToggle() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8">
+          className="h-8 w-8"
+        >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -31,7 +33,8 @@ export function ModeToggle() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8">
+          className="h-8 w-8"
+        >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
