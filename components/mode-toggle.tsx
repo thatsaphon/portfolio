@@ -8,7 +8,7 @@ export function ModeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      className="flex h-12 w-12 items-center justify-center rounded-md border-2 border-slate-800 dark:border-white"
+      className="flex h-8 w-8 items-center justify-center rounded-md border-2 border-slate-800 dark:border-white sm:h-12 sm:w-12"
     >
       <span className="sr-only">Toggle mode</span>
       {theme !== "dark" ? (

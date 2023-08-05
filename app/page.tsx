@@ -41,13 +41,13 @@ export default function Home() {
           </a>
         </p>
       </div>
-      <div id="about">
+      <div id="about" className="pt-24 sm:pt-0">
         <AboutPage nextButtonLink={`#project`} />
       </div>
-      <div id="project">
+      <div id="project" className="pt-24 sm:pt-0">
         <ProjectPage nextButtonLink="#contact" />
       </div>
-      <div id="contact">
+      <div id="contact" className="pt-24 sm:pt-0">
         <ContactPage />
       </div>
     </>

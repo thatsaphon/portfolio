@@ -19,7 +19,7 @@ export default function ProjectCardComponent({
 }: Props) {
   return (
     <div className="lg:min-h-64 flex w-full flex-col items-center justify-center gap-8 rounded-xl p-2 lg:grid lg:grid-cols-2 lg:items-center">
-      <div className="flex max-h-[320px] min-w-full justify-end lg:min-w-[500px]">
+      <div className="flex max-h-[320px] min-w-full justify-center lg:min-w-[400px] lg:justify-end xl:min-w-[500px]">
         <Image src={src} alt={alt} width={500} height={500}></Image>
       </div>
       <div className="flex max-w-[500px] flex-col whitespace-pre-line text-left text-slate-900 dark:text-white sm:text-xl">

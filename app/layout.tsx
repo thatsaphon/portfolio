@@ -36,13 +36,13 @@ export default function RootLayout({
             <div className="flex items-center gap-3">
               <ModeToggle />
               <a href={"/#contact"}>
-                <button className="rounded-md bg-blue-700 p-3 text-2xl font-bold text-white dark:bg-slate-200 dark:text-slate-900">
+                <button className="rounded-md bg-blue-700 p-3 text-lg font-bold text-white dark:bg-slate-200 dark:text-slate-900 sm:text-2xl">
                   Contact Me
                 </button>
               </a>
             </div>
           </header>
-          <div className="bg-gradient-to-b from-indigo-200 to-white text-blue-600 dark:bg-gradient-to-b dark:from-slate-800 dark:to-slate-900 dark:text-white">
+          <div className="bg-gradient-to-b from-indigo-200 to-white pt-24 text-blue-600 dark:bg-gradient-to-b dark:from-slate-800 dark:to-slate-900 dark:text-white">
             {children}
           </div>
         </ThemeProvider>
