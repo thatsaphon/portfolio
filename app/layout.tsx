@@ -42,7 +42,7 @@ export default function RootLayout({
               </a>
             </div>
           </header>
-          <div className="bg-gradient-to-b from-indigo-200 to-white text-blue-600 dark:bg-gradient-to-b dark:from-slate-800 dark:to-slate-900 dark:text-white">
+          <div className="bg-gradient-to-b from-indigo-200 to-violet-200 text-blue-600 dark:bg-gradient-to-b dark:from-slate-800 dark:to-slate-900 dark:text-white">
             {children}
           </div>
         </ThemeProvider>
