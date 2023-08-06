@@ -7,7 +7,7 @@ type Props = { nextButtonLink?: string };
 
 export default function ProjectPage({ nextButtonLink }: Props) {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center p-5 pb-36 text-center lg:gap-5 lg:p-24">
+    <div className="mt-24 flex flex-col items-center justify-center p-5 pt-32 text-center lg:gap-5 lg:p-24 lg:pt-32">
       <h1 className="text-3xl font-bold text-slate-900 dark:text-white lg:text-6xl">
         Projects
       </h1>

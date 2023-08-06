@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="flex min-h-screen flex-col items-center justify-center p-5 pb-36 text-center lg:gap-5 lg:p-24"
+        className="flex min-h-screen flex-col items-center justify-center p-5 pb-36 pt-24 text-center lg:gap-5 lg:p-24"
         id="start"
       >
         <h1 className="text-3xl font-bold lg:text-6xl">
@@ -41,13 +41,13 @@ export default function Home() {
           </a>
         </p>
       </div>
-      <div id="about" className="pt-24 sm:pt-0">
+      <div id="about">
         <AboutPage nextButtonLink={`#project`} />
       </div>
-      <div id="project" className="pt-24 sm:pt-0">
+      <div id="project">
         <ProjectPage nextButtonLink="#contact" />
       </div>
-      <div id="contact" className="pt-24 sm:pt-0">
+      <div id="contact">
         <ContactPage />
       </div>
     </>

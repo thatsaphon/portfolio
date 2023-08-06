@@ -6,7 +6,7 @@ type Props = { nextButtonLink?: string };
 
 export default function ContactPage({ nextButtonLink }: Props) {
   return (
-    <div className="white flex min-h-screen flex-col items-center justify-center overflow-clip p-5 pb-36 text-center lg:gap-5 lg:p-24">
+    <div className="white flex flex-col items-center justify-center overflow-clip p-5 pb-36 pt-32 text-center lg:gap-5 lg:p-24 lg:pt-32">
       <h1 className="text-3xl font-bold text-slate-900 dark:text-white lg:text-6xl">
         Contact
       </h1>
